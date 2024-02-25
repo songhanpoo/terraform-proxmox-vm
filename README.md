@@ -1,3 +1,29 @@
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/songhanpoo/terraform-proxmox-vm
+```
+
+Go to the project directory
+
+```bash
+  cd terraform-proxmox-vm
+```
+
+Install dependencies and check resource gonna craete
+
+```bash
+  terraform init && terraform plan
+```
+
+Trigger to deployment
+
+```bash
+  terraform apply
+```
+
 ## Requirements
 
 | Name                                                                     | Version  |
@@ -11,9 +37,9 @@
 | ------------------------------------------------------------ | -------- |
 | <a name="provider_proxmox"></a> [proxmox](#provider_proxmox) | >=0.46.6 |
 
-## Modules
+## Providers
 
-No modules.
+[bpg/proxmox](https://registry.terraform.io/providers/bpg/proxmox/latest/docs)
 
 ## Resources
 
@@ -44,3 +70,13 @@ No modules.
 | Name                                                                          | Description |
 | ----------------------------------------------------------------------------- | ----------- |
 | <a name="output_ipv4_addresses"></a> [ipv4_addresses](#output_ipv4_addresses) | n/a         |
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Authors
+
+- [@Songhanpoo](https://www.github.com/songhanpoo) - Forked
+- [@Wiscaksono](https://www.github.com/wiscaksono) - Owner
+- [@Yanka Darelova](https://www.behance.net/darelova) - Designer
